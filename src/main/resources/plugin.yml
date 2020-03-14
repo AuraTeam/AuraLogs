@@ -1,0 +1,4 @@
+name: AuraLogs
+version: @version@
+main: com.github.aurateam.auralogs.AuraLogs
+api-version: 1.13
