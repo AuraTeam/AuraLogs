@@ -11,6 +11,7 @@ repositories {
     mavenCentral()
     maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
     maven { url = 'https://oss.sonatype.org/content/groups/public/' }
+    maven { url = 'https://jitpack.io' }
 }
 
 dependencies {
@@ -18,6 +19,7 @@ dependencies {
 
     // Command framework
     implementation "me.mattstudios.utils:matt-framework:+"
+    implementation "com.github.ipsk:MattCore:7c3371289e"
 
     // Config repository
     implementation ("ch.jalu:configme:1.1.0") {

@@ -1,17 +1,12 @@
 package com.github.aurateam.auralogs;
 
-import org.bukkit.plugin.java.JavaPlugin;
+import me.mattstudios.mattcore.MattPlugin;
 
-public final class AuraLogs extends JavaPlugin {
-
-    @Override
-    public void onEnable() {
-        // Plugin startup logic
-
-    }
+public final class AuraLogs extends MattPlugin {
 
     @Override
-    public void onDisable() {
-        // Plugin shutdown logic
+    protected void enable() {
+        
     }
+
 }
